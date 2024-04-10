@@ -1,4 +1,4 @@
-package epicode.u5d7hw.exceptions;
+package gioelefriggia.u5d8.exceptions;
 
 public class NotFoundException extends RuntimeException {
     public NotFoundException(String message) {
@@ -6,6 +6,6 @@ public class NotFoundException extends RuntimeException {
     }
 
     public NotFoundException(int id) {
-        super(id + " non trovato!");
+        super(id + " not found!");
     }
 }

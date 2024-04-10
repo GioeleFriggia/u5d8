@@ -1,4 +1,4 @@
-package epicode.u5d7hw;
+package gioelefriggia.u5d8;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

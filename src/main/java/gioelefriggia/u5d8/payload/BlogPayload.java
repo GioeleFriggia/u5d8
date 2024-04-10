@@ -1,19 +1,17 @@
-package epicode.u5d7hw.entities;
+package gioelefriggia.u5d8.payload;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class Blogpost {
-    private int id;
+public class BlogPayload {
     private String category;
     private String title;
     private String cover;
     private String content;
     private double readingTime;
+    private int authorId;
 }
